@@ -22,3 +22,10 @@ body {
 #nutKiemTra:hover {
     background-color: #1abc9c; /* Đổi sang màu xanh ngọc */
 }
+img {
+    width: 100%; /* Chiều rộng tự động vừa khít với khung chứa */
+    max-width: 400px; /* Giới hạn ảnh không to quá 400px */
+    height: auto; /* Giữ nguyên tỷ lệ ảnh để không bị méo */
+    display: block;
+    margin: 20px 0; /* Tạo khoảng cách trên dưới cho thoáng */
+}
